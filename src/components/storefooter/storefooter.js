@@ -24,7 +24,7 @@ const StoreFooter = () => {
                     </div>
                 </div>
                 <p>Saber Roar Store<br></br>
-                    &copy; 2024 Saber Roar Store. All rights reserved.
+                    &copy; 2026 Saber Roar Store. All rights reserved.
                 </p>
             </footer>    
         </div>

@@ -1,13 +1,26 @@
 .store-footer {
   text-align: center;
-  padding: 3px;
-  background-color: rgba(220, 180, 0, 0.784);
+  padding: 24px clamp(16px, 4vw, 48px) 12px;
+  background-color: rgba(206, 206, 204, 0.901);
   color: black;
 }
 
 #footer-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  width: min(100%, 1100px);
+  margin: 0 auto;
+}
+
+.store-footer .column {
+  flex: 1 1 180px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.store-footer footer > p {
+  margin: 24px 0 0;
 }
