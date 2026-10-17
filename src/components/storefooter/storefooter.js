@@ -8,23 +8,22 @@ const StoreFooter = () => {
                 <div  id="footer-content" class="row">
                     <div class="column">
                         <h3>Contact Us</h3>
-                        <p>Email:</p>
+                        <p>Email: jennifer.dames@franklin.k12.wi.us</p>
                     </div>
                     <div class="column">
-                        <h3>Follow Us</h3>
-                        <p>Social Media Links</p>
+                        <h3>Follow Us on Instagram</h3>
+                        <p>@roarstorefranklin</p>
                     </div>
+
                     <div class="column">
-                        <h3>Follow Us</h3>
-                        <p>Social Media Links</p>
-                    </div>
-                    <div class="column">
-                        <h3>Follow Us</h3>
-                        <p>Social Media Links</p>
+                        <h3>Location</h3>
+                        <p>Franklin High School</p>
+                        <p>8222 South 51st Street</p>
+                        <p>Franklin, WI 53132</p>
                     </div>
                 </div>
                 <p>Saber Roar Store<br></br>
-                    &copy; 2026 Saber Roar Store. All rights reserved.
+                    &copy; 2026 Saber Roar Store. All Rights Reserved.
                 </p>
             </footer>    
         </div>

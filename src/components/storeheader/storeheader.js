@@ -12,7 +12,7 @@ const StoreHeader = () => {
             <ul class="navbar">
                 <li><a href="/">Home</a></li>
                 <li><a href="/store-catalog">Catalog</a></li>
-                <li><a href="/contact-us">Contact Us</a></li>
+                <li><a href="/contact-us">Contact Us/Shop</a></li>
             </ul>
         </div>
     );
