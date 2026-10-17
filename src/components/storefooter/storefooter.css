@@ -1,0 +1,13 @@
+.store-footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(220, 180, 0, 0.784);
+  color: black;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}

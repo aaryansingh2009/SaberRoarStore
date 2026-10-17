@@ -1,18 +1,18 @@
 // import React from 'react';
 import "./storecatalog.css";
 
-import Header from '../storeheader/storeheader';
-import Footer from '../storefooter/storefooter';
+import StoreHeader from '../storeheader/storeheader';
+import StoreFooter from '../storefooter/storefooter';
 
 const StoreCatalog = () => {
     return (
         <div>
-            <Header />
+            <StoreHeader />
             <div className="store-catalog">
                 <h1>Store Catalog</h1>
                 <p>Browse our wide selection of products and find what you need!</p>
             </div>
-            <Footer />
+            <StoreFooter />
         </div>
     );
 }

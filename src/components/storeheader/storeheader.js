@@ -3,9 +3,13 @@ import "./storeheader.css";
 
 const StoreHeader = () => {
     return (
-        <div className="store-header">
-            <h1>Welcome to Our Store</h1>
-            <p>Discover the best products at unbeatable prices!</p>
+        <div class="store-header">
+            <img class="saber-logo" src="/images/saber-logo.png" alt="Saber Logo"/>
+            <ul class="navbar">
+                <li><a href="/">Home</a></li>
+                <li><a href="/store-catalog">Catalog</a></li>
+                <li><a href="/contact-us">Contact Us</a></li>
+            </ul>
         </div>
     );
 }
