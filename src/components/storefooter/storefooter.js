@@ -10,6 +10,7 @@ const StoreFooter = () => {
                         <h3>Contact Us</h3>
                         <p>Email: jennifer.dames@franklin.k12.wi.us</p>
                     </div>
+                    
                     <div class="column">
                         <h3>Follow Us on Instagram</h3>
                         <p>@roarstorefranklin</p>
