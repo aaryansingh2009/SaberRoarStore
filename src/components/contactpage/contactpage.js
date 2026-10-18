@@ -64,7 +64,7 @@ const ContactPage = () => {
             Have a Question about an Order or a Product?
             We'd be happy to hear from you.
           </p>
-          <a href="mailto:YOUR-CONTACT-EMAIL@example.com">
+          <a href="mailto:jennifer.dames@franklin.k12.wi.us" target="_blank">
             Contact our team →
           </a>
         </section>

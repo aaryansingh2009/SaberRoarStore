@@ -1,5 +1,5 @@
 export const storeCategories = [
-    "All Supplies",
+    "All Items",
     "Apparel",
     "Snacks/Drinks",
     "Supplies"

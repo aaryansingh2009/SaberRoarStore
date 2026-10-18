@@ -108,12 +108,14 @@
     padding: 0;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(12, 6fr);
+    /* align-items: center; */
+    justify-items: center;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
     /* 16px - 20px */
     gap: clamp(1rem, 2.3vw, 1.25rem);
   }
   #storehome .cs-item {
-    width: 100%;
+    width: 90%;
     text-align: left;
     list-style: none;
     margin: 0;
@@ -127,8 +129,8 @@
     grid-row: span 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     position: relative;
     z-index: 1;
   }

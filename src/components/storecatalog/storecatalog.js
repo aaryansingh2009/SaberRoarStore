@@ -16,10 +16,10 @@ const products = [
 ];
 
 function StoreCatalog() {
-  const [selectedCategory, setSelectedCategory] = useState("All Supplies");
+  const [selectedCategory, setSelectedCategory] = useState("All Items");
   let visibleProducts = products;
 
-  if (selectedCategory !== "All Supplies") {
+  if (selectedCategory !== "All Items") {
     visibleProducts = products.filter(
       (product) => product.category === selectedCategory
     );
