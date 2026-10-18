@@ -74,25 +74,31 @@ function StoreCatalog() {
     <>
       <StoreHeader />
       <div className="store-catalog">
-        <div className="store-catalog__sidebar">
-          <h1>Shop the Store</h1>
-          {storeCategories.map((category) => {
-            let buttonClass = "category";
-            if (selectedCategory === category) {
-              buttonClass = "category selected";
-            }
+        <aside className="store-catalog__sidebar">
+          <h1>Browse Categories</h1>
+          <nav aria-label="Product categories">
+            <ul className="store-catalog__category-list">
+              {storeCategories.map((category) => {
+                let buttonClass = "category";
+                if (selectedCategory === category) {
+                  buttonClass = "category selected";
+                }
 
-            return (
-              <button
-                className={buttonClass}
-                key={category}
-                onClick={() => setSelectedCategory(category)}
-              >
-                {category}
-              </button>
-            );
-          })}
-        </div>
+                return (
+                  <li key={category}>
+                    <button
+                      className={buttonClass}
+                      aria-pressed={selectedCategory === category}
+                      onClick={() => setSelectedCategory(category)}
+                    >
+                      {category}
+                    </button>
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
+        </aside>
 
         <div className="store-catalog__products">
           <h2>{selectedCategory}</h2>

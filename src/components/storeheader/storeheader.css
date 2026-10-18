@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 12px 20px;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
@@ -22,7 +22,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,12 +36,20 @@
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 30px;
   text-decoration: none;
 }
 
 .navbar a:hover {
   background-color: rgb(181, 154, 87);
+  border-radius: 5px;
+  border: 1px solid rgb(4, 4, 4);
+}
+
+.navbar a.active {
+  background-color: rgb(181, 154, 87);
+  border-radius: 5px;
+
 }
 
 .saber-logo {
@@ -55,6 +63,10 @@
   .store-header {
     flex-direction: column;
     padding: 16px;
+  }
+
+  .navbar {
+    margin-left: 0;
   }
 
   .navbar a {

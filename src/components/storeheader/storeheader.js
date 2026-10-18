@@ -1,18 +1,19 @@
 // import React from 'react';
+import { NavLink } from "react-router-dom";
 import "./storeheader.css";
 
 const StoreHeader = () => {
     return (
-        <div class="store-header">
-            <div class="roar-store-logo">
+        <div className="store-header">
+            <div className="roar-store-logo">
                 <a href="/">
-                    <img class="saber-logo" src="/images/roarheader.png" alt="Saber Logo"/>
+                    <img className="saber-logo" src="/images/roarheader.png" alt="Saber Logo"/>
                 </a>
             </div>
-            <ul class="navbar">
-                <li><a href="/">Home</a></li>
-                <li><a href="/store-catalog">Catalog</a></li>
-                <li><a href="/contact-us">Contact Us/Shop</a></li>
+            <ul className="navbar">
+                <li><NavLink to="/" end className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink></li>
+                <li><NavLink to="/store-catalog" className={({ isActive }) => isActive ? "active" : ""}>Catalog</NavLink></li>
+                <li><NavLink to="/contact-us" className={({ isActive }) => isActive ? "active" : ""}>Contact Us/Shop</NavLink></li>
             </ul>
         </div>
     );
