@@ -2,11 +2,11 @@ import './App.css';
 
 import Header from './components/storeheader/storeheader';
 import Footer from './components/storefooter/storefooter';
-import StoreCatalog from './components/storecatalog/storecatalog';
+// import StoreCatalog from './components/storecatalog/storecatalog';
 import HomePage from './components/homepage/homepage';
-import ContactPage from './components/contactpage/contactpage';
-import Carousel from './components/carousel/carousel';
-import AboutUs from './components/aboutus/aboutus';
+// import ContactPage from './components/contactpage/contactpage';
+// import Carousel from './components/carousel/carousel';
+// import AboutUs from './components/aboutus/aboutus';
 
 
 function App() {
@@ -17,7 +17,6 @@ function App() {
       {/* <Carousel /> */}
       {/* <StoreCatalog />
       <ContactPage /> */}
-      <AboutUs />
       <Footer />
     </div>
   );

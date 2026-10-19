@@ -1,76 +1,104 @@
 .store-header {
-  background-color: rgba(206, 206, 204, 0.901);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-start;
-  gap: 12px 20px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  padding: 25px 20px;
+  justify-content: space-between;
+  gap: 18px 32px;
+  padding: 14px clamp(20px, 5vw, 72px);
+  border-bottom: 3px solid #b59a57;
+  background: #171a1e;
+  box-shadow: 0 8px 24px rgba(15, 18, 22, 0.16);
 }
 
 .roar-store-logo {
-  flex: 0 0 auto;
+  flex: 0 1 auto;
 }
 
-.navbar {
-  display: flex;
-  flex-wrap: wrap;
+.roar-store-logo a {
+  display: inline-flex;
   align-items: center;
-  justify-content: flex-start;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  border-radius: 6px;
 }
 
-.navbar li {
-  padding: 0;
-}
-
-.navbar a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 30px;
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  background-color: rgb(181, 154, 87);
-  border-radius: 5px;
-  margin: 0 5px;
-  font-size: 18px;
-}
-
-.navbar a.active {
-  background-color: rgb(181, 154, 87);
-  border-radius: 5px;
-
+.roar-store-logo a:focus-visible,
+.store-nav a:focus-visible {
+  outline: 2px solid #d6bd79;
+  outline-offset: 4px;
 }
 
 .saber-logo {
   display: block;
-  width: clamp(120px, 18vw, 220px);
+  width: clamp(120px, 16vw, 195px);
   max-width: 100%;
   height: auto;
 }
 
+.store-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.store-nav li {
+  margin: 0;
+  padding: 0;
+}
+
+.store-nav a {
+  display: block;
+  padding: 12px 18px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  color: #f5f2e9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease;
+}
+
+.store-nav a:hover {
+  border-color: rgba(214, 189, 121, 0.55);
+  color: #e5cc88;
+}
+
+.store-nav a.active {
+  border-color: #b59a57;
+  background: #b59a57;
+  color: #171a1e;
+}
+
 @media (max-width: 560px) {
   .store-header {
-    flex-direction: column;
-    padding: 16px;
+    justify-content: center;
+    gap: 12px;
+    padding: 14px 16px 16px;
   }
 
-  .navbar {
-    margin-left: 0;
+  .store-nav {
+    justify-content: center;
+    gap: 4px;
   }
 
-  .navbar a {
-    padding: 12px 10px;
+  .store-nav a {
+    padding: 10px 12px;
+    font-size: 11px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .store-nav a {
+    transition: none;
   }
 }
