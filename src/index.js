@@ -14,7 +14,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/store-catalog" element={<StoreCatalog />} />
+        <Route path="/store-products" element={<StoreCatalog />} />
         <Route path="/contact-us" element={<ContactPage />} />
       </Routes>
     </BrowserRouter>

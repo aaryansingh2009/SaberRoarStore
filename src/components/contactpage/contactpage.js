@@ -3,7 +3,7 @@ import './contactpage.css';
 
 import StoreHeader from '../storeheader/storeheader';
 import StoreFooter from '../storefooter/storefooter';
-import { QRCodeSVG } from 'qrcode.react';
+// import { QRCodeSVG } from 'qrcode.react';
 
 // Replace this with your real Square Store URL
 const SQUARE_URL = 'https://YOUR-STORE.square.site';
