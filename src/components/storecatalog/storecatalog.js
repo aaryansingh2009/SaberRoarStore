@@ -75,7 +75,7 @@ function StoreCatalog() {
       <StoreHeader />
       <div className="store-catalog">
         <aside className="store-catalog__sidebar">
-          <h1>Browse Categories</h1>
+          <h1>BROWSE CATEGORIES</h1>
           <nav aria-label="Product categories">
             <ul className="store-catalog__category-list">
               {storeCategories.map((category) => {

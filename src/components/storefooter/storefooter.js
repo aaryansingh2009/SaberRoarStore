@@ -11,7 +11,7 @@ const StoreFooter = () => {
                         <p>Email: jennifer.dames@franklin.k12.wi.us</p>
                         <br />
                         <br />
-                        <p>Powered by the Members of FHS STEM Club: Aaryan S, Aayush S, Adhvik R, Soham S </p>
+                        <p>Powered by the Members of FHS STEM Club Aaryan S, Aayush S, Adhvik R, Soham S </p>
                     </div>
                     
                     <div class="column">

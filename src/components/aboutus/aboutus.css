@@ -6,7 +6,7 @@
     max-width: 80%;
     margin: 2rem auto;
     padding: clamp(1.5rem, 5vw, 4rem);
-    background: linear-gradient(135deg, #fff 0%, #f7f8fb 100%);
+    background: #f7f6f2;
     border: 1px solid #e8ebf0;
     border-radius: 1.25rem;
     box-shadow: 0 16px 40px rgb(24 39 75 / 10%);

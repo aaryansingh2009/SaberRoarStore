@@ -3,7 +3,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #f7f8fa;
+  background: #f7f6f2;
   color: #17191e;
 }
 
@@ -12,8 +12,7 @@
   width: 100%;
   box-sizing: border-box;
   padding: 64px 24px 76px;
-  background:
-    radial-gradient(ellipse at top, #ffffff 0%, #f7f8fa 72%);
+  background: #f7f6f2;
 }
 
 .contact-heading {
