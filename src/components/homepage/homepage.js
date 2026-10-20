@@ -1,6 +1,7 @@
 import React from 'react';
 import './homepage.css';
 
+
 import AboutUs from '../aboutus/aboutus';
 import '../aboutus/aboutus.css';
 
@@ -14,11 +15,16 @@ const Homepage = () => {
                         <h1 className="cs-title">Come shop and visit us at our Franklin High School Saber Roar Store</h1>
                         <h4 className="cs-item-text-hours">Store Hours:</h4>
                         <p className="cs-item-text-hours">
-                            &emsp; &emsp; Monday: 2:30 PM - 3:30 PM <br />
+                            &emsp; &emsp; Monday - Friday: 7:00 AM - 7:15 AM<br />
+                            &emsp; &emsp; Monday - Wednesday: 2:35 PM - 3:00 PM <br />
+                            &emsp; &emsp; Friday: 2:35 PM - 3:00 PM <br />
+
+                            {/* Basic one */}
+                            {/* &emsp; &emsp; Monday: 2:30 PM - 3:30 PM <br />
                             &emsp; &emsp; Tuesday: 2:30 PM - 3:30 PM <br />
                             &emsp; &emsp; Wednesday: 2:30 PM - 3:30 PM <br />
                             &emsp; &emsp; Thursday: 2:30 PM - 3:30 PM <br />
-                            &emsp; &emsp; Friday - Sunday: Closed <br />
+                            &emsp; &emsp; Friday - Sunday: Closed <br /> */}
                         </p>
                         <br />
                         {/* <a href="/get-started" target="_blank" className="cs-button-solid">Visit Store</a> */}
@@ -40,7 +46,7 @@ const Homepage = () => {
                                 Visit our Saber Roar Store to explore a variety of products and merchandise. From apparel to accessories, we have something for everyone.
                             </p>
                             <br />
-                            <a href="/store-catalog" className="cs-button-solid">Visit Store</a>
+                            <a href="/store-products" className="cs-button-solid">Visit Store</a>
                         </li>
                         <li className="cs-item">
                             <span className="cs-icon">
