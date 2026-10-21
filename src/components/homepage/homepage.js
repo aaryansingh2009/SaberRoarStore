@@ -2,8 +2,8 @@ import React from 'react';
 import './homepage.css';
 
 
-import AboutUs from '../aboutus/aboutus';
-import '../aboutus/aboutus.css';
+// import AboutUs from '../aboutus/aboutus';
+// import '../aboutus/aboutus.css';
 
 const Homepage = () => {
     return (
@@ -73,9 +73,9 @@ const Homepage = () => {
                 </picture>
 
             </section>
-            <div className="about-us-container">
+            {/* <div className="about-us-container">
                 <AboutUs />
-            </div>
+            </div> */}
         </div>
         
                                 
