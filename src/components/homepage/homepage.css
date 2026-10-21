@@ -107,6 +107,7 @@
   #storehome .cs-card-group {
     margin: 0;
     padding: 0;
+    padding-bottom: 1%;
     width: 100%;
     display: grid;
     /* align-items: center; */

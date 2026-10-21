@@ -11,6 +11,7 @@ const SQUARE_URL = 'https://YOUR-STORE.square.site';
 const ContactPage = () => {
   return (
     <div className="contact-wrapper">
+      <title>Saber Roar Store - Contact Us</title>
       <StoreHeader />
 
       <main className="contact-page">

@@ -9,6 +9,7 @@ const Homepage = () => {
     return (
         <div>
             {/* // Text on the homepage background */}
+            <title>Saber Roar Store</title>
             <section id="storehome" className="cs-section">
                 <div className="cs-container">
                     <div className="cs-content">
