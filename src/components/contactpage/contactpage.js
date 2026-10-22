@@ -59,13 +59,13 @@ const ContactPage = () => {
         </section>
 
         <section className="contact-help">
-          <h2>Need help?</h2>
+          <h2>Fill out our Review Form</h2>
           <p>
             Have a Question about an Order or a Product?
-            We'd be happy to hear from you.
+            Have a Suggestion for our Store?
           </p>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-YJqlJgn-zm0ydW5B4YMewYrfPFXQHUywjwCZ1N1eFjtQGA/viewform" target="_blank">
-            Contact our team →
+            Fill out our Review Form!!
           </a>
         </section>
       </main>
