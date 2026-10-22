@@ -7,6 +7,7 @@ import HomePage from './components/homepage/homepage';
 // import ContactPage from './components/contactpage/contactpage';
 // import Carousel from './components/carousel/carousel';
 // import AboutUs from './components/aboutus/aboutus';
+import AboutUs2 from './components/aboutus2/aboutus2';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       {/* <Carousel /> */}
       {/* <StoreCatalog />
       <ContactPage /> */}
+      <AboutUs2 />
       <Footer />
     </div>
   );

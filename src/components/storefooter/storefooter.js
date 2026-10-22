@@ -36,6 +36,13 @@ const StoreFooter = () => {
                             Franklin, WI 53132
                         </address>
                     </section>
+                    <section className="footer-column">
+                        <h2>Store Hours</h2>
+                        <p>Monday - Friday: 7:00 AM - 7:15 PM</p>
+                        <p>Monday - Wednesday: 2:35 PM - 3:00 PM</p>
+                        <p>Friday: 2:35 PM - 3:00 PM</p>
+                        <p>Closed on no-school days</p>
+                    </section>
                 </div>
                 <div className="footer-bottom">
                     <span>Saber Roar Store</span>

@@ -73,6 +73,7 @@ function StoreCatalog() {
   return (
     <>
       <StoreHeader />
+      <title>Saber Roar Store - Products</title>
       <div className="store-catalog">
         <aside className="store-catalog__sidebar">
           <h1>BROWSE CATEGORIES</h1>
