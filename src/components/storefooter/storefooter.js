@@ -7,10 +7,11 @@ const StoreFooter = () => {
             <div className="footer-inner">
                 <div className="footer-content">
                     <section className="footer-column">
-                        <h2>Get in touch</h2>
-                        <a href="mailto:jennifer.dames@franklin.k12.wi.us">
-                            jennifer.dames@franklin.k12.wi.us
-                        </a>
+                        <h2>Get in touch</h2>                        
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jennifer.dames%40franklin.k12.wi.us" target="_blank" rel="noopener noreferrer">
+                                jennifer.dames@franklin.k12.wi.us
+                            </a>
+
                         <p className="footer-credit">
                             Powered by the members of the FHS STEM Club:
                             <br />
@@ -18,7 +19,7 @@ const StoreFooter = () => {
                         </p>
                     </section>
 
-                    <section className="footer-column">
+                    <section className="footer-column"> 
                         <h2>Follow along</h2>
                         <a href="https://www.instagram.com/roarstorefranklin/" target="_blank" rel="noreferrer">
                             @roarstorefranklin <span aria-hidden="true">↗</span>
